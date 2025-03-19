@@ -26,7 +26,7 @@ public class AlbumInsertController {
 	// list.jsp에서 추가하기 버튼
 	@RequestMapping(value=command, method = RequestMethod.GET)
 	public String doActionGet() {
-		return getPage;
+		return "abcd"; // kim이 수정함
 		// /WEB-INF/album/albumInsertForm.jsp
 	}
 	
