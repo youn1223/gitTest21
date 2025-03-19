@@ -16,11 +16,11 @@ public class AlbumDeleteController {
 	@Autowired
 	AlbumDao albumDao;
 	//albumList.jsp에서 삭제
-	// youn1223 한줄 추가
-	
+	// kim 한줄 수정
+	// kim 한줄 추가
 	@RequestMapping(command)
 	public String doAction(@RequestParam(value="num",required = true ) int num) {
-		
+		 
 		
 		// 한줄 삭제
 		int cnt = albumDao.deleteAlbum(num);
